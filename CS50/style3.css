@@ -1,0 +1,114 @@
+.body {
+      background-color: whitesmoke;
+      overflow-x: hidden;
+   }
+   img{
+      padding-left: 35%; 
+      margin-top:-85px ;
+       }
+   .container {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+   }
+
+   h1 {
+      color: brown;
+      font-size: 95px;
+      text-align: center;
+   }
+
+   p {
+      text-align: center;
+      font-size: medium;
+      margin-top: -65px;
+   }
+
+   .size {
+      
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   h2 {
+      color: brown;
+      font-size: 50px;
+      text-align: center;
+      margin-top: -25px;
+
+   }
+
+   .card {
+      margin: auto;
+      padding-inline: 35px;
+      padding-top: 1%;
+      font-size:medium;
+      border: solid 0.8px;
+      background-color: rgba(128, 128, 128, 0.629);
+   }
+.card:hover{
+   background-color: whitesmoke;
+}
+   .type {
+      padding-top: 3.5%;
+      
+
+   }
+
+   .back {
+      cursor: pointer;
+      margin: auto;
+      border: solid 0.5px;
+      max-width: max-content;
+      background-color: grey;
+     
+   }
+
+   .back:hover {
+      color: whitesmoke;
+   }
+
+   .black {
+      text-align: center;
+      margin-top: -25px;
+   }
+   .upload{
+      padding-left: 40%;
+      margin-top: -25px;
+      font-size: 15px;
+   }
+   .info{
+      padding-left: 5%;
+     font-size: 18px;
+   }
+.done{
+   border: solid 2px;
+   border-radius: 100px;
+   margin-left: 35%;
+   width: 25%;
+}
+.done:hover,.done:focus,.done:active{
+   background-color: brown;
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+.linkbtn{
+   text-align: center;
+   border: dashed 3px;
+   border-radius: 30px;
+   width: 175px;
+   margin: auto;
+   background-color: rgba(128, 128, 128, 0.738);
+}
+.linkbtn:hover,.linkbtn:focus,.linkbtn:active{
+  background-color:brown ; 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+a{
+   text-decoration:none;
+ color: black;
+}
+a:hover{
+   color: blue
+}

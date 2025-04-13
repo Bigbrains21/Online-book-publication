@@ -1,0 +1,96 @@
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+text-align: justify;
+}
+img{
+padding-left: 35%; 
+margin-top:-85px ;
+ }
+
+h1 {
+    color: brown;
+   text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
+        }
+
+h2{
+   padding-left: 35%;
+        }
+.lang{
+    padding-left: 1%;
+    font-size: 20px;
+   
+
+   
+}
+h3,h4,h5,h6{
+  font-size: 22px;
+  margin-top: 9px;
+
+
+}
+p1{
+    
+    font-size:20px;
+    padding-left: 1%;
+}
+.contributors{
+    padding-left: 1%;
+    font-size: 20px;
+   margin-top: -45px;
+
+}
+  
+.text{
+   margin-top: 10px;
+    width: 100%; 
+    padding-left: 2%; 
+    }
+.Genre{
+    font-size: 20px;
+    margin-top: -45px;
+    padding-left: 1%;
+}
+
+.linkbtn{
+    text-align: center;
+    border: dashed 3px;
+    border-radius: 30px;
+    width: 175px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.738);
+    
+}
+.linkbtn:hover,.linkbtn:focus,.linkbtn:active{
+   background-color:brown ; 
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    
+color: blue;
+}
+.done{
+    border: solid 2px;
+    border-radius: 100px;
+    margin-left: 35%;
+    width: 25%;
+    cursor: pointer;
+ }
+ .done:hover,.done:focus,.done:active{
+    background-color: brown;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
